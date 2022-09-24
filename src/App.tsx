@@ -18,6 +18,14 @@ const restuarants = [
     sid: "s71b8365e1a1ea0c8f71a144224ac781a",
     name: "小食代",
   },
+  {
+    sid: "sf748603765bf63193d4dbf524fa3da82",
+    name: "uluh",
+  },
+  {
+    sid: "se62970b73842d2f4e669a2531e76a3d4",
+    name: "laozao",
+  },
 ];
 
 function App() {
