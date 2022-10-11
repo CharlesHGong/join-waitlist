@@ -1,5 +1,6 @@
+import React from 'react';
 import "./App.css";
-import { Avatar, List } from "@material-ui/core";
+import { Avatar, List } from "@mui/material";
 import { StoreItem } from "./components/StoreItem";
 import Logo from "./assets/images/logo.png";
 import { restuarants } from "./restuarantsList";
@@ -12,7 +13,7 @@ function App() {
       <Avatar src={Logo} style={{ width: 100, height: 100, margin: "auto" }} />
       <List dense={false}>
         {restuarants.map((store) => (
-          <StoreItem {...store} />
+          <StoreItem key={store.sid} {...store} />
         ))}
       </List>
     </div>
